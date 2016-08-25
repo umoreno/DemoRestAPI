@@ -7,6 +7,7 @@ namespace AnotherWEBAPI
 {
     public class UnityResolver : IDependencyResolver
     {
+        // Container documentation
         protected IUnityContainer container;
 
         public UnityResolver(IUnityContainer container)
