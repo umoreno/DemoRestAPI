@@ -12,7 +12,6 @@ namespace AnotherWEBAPI
     {
         public void Configuration(IAppBuilder app)
         {
-            // Adding a comment to this line
             ConfigureAuth(app);
         }
     }
